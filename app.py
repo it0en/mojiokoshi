@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Excelフォーマッタ（シート選択式）")
+st.title("文字起こし")
+st.write("Excelファイルをアップロードして、コマ組みを文字起こしします")
+
 
 uploaded_file = st.file_uploader("Excelファイルをアップロードしてください", type=["xlsx"])
 
